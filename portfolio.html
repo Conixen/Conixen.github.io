@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My portfolio (So far)</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="cv.html">My CV</a></li>
+                <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="links.html">Links</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="portfolio">
+            <h1>Portfolio</h1>
+            <div class="project-container">
+                <div class="project">
+                    <h2>Bank Application</h2>
+                    <a href="#modal1" class="button">More Info</a>
+                    <a href="https://github.com/Conixen/GroupProject-Wookie-Warriors" class="github-link">GitHub Repository</a>
+                    <img src="Images/Image.Projet1.jpg" alt="Projekt 1">
+                </div>
+                <div class="project">
+                    <img src="projekt2.jpg" alt="Projekt 2">
+                    <h2>To be announced</h2>
+                    <a href="#modal2" class="button">More Info</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 [Leon Johansson]</p>
+    </footer>
+    
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Bank Application</h2>
+            <p>A group project I did with my team The Wookie Warriors.</p>
+            <p>We used C# to complete this project.</p>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Projekt 2</h2>
+            <p>Mer information om Projekt 2.</p>
+        </div>
+    </div>
+</body>
+</html>

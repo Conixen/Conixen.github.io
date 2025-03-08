@@ -1,0 +1,47 @@
+{
+   "Education":[
+    {
+    "id": 1,
+    "school": "Peder Skrivare Skola",
+    "lenght": "2013-2016",
+    "course": "Samhällsvetenskap"
+    },
+    {
+        "id": 2,
+        "school": "NTI Skolan",
+        "lenght": "2019-2020",
+        "course": "El & Energi"
+    },
+    {
+        "id": 3,
+        "school": "Campus Varberg",
+        "lenght": "2024- (2026)",
+        "course": "Systemutvecklare.NET"
+    }
+   ],
+   "Work":[
+    {
+        "id": 1,
+        "workplace": "Lackering",
+        "title": "Plockare/Lagerarbertare",
+        "time": "2017-2019"
+    },
+    {
+        "id": 2,
+        "workplace": "Region Halland",
+        "title": "Köksbiträde & Varuhanterare",
+        "time": "2019-2021 & 2023-2024"
+    },
+    {
+        "id": 3,
+        "workplace": "Bygg & Montage i Varberg",
+        "title": "Köksmontör",
+        "time": "2022-2022"
+    }
+   ],
+   "Contact":{
+    "fullname": "Leon Johansson",
+    "email": "leonexempel@hotmail.com",
+    "number": "0704123456"
+   }
+}

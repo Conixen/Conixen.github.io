@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Events/events.js">
+    <style>
+        #secret-area {
+            position: sticky;
+            top: 10px;
+            right: 10px;
+            width: 10px;
+            height: 10px;
+            background-color: transparent;
+            cursor: pointer;
+        }
+        /* Modal-stilar */
+.modal {
+    display: none; /* Dold som standard */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Genomskinlig bakgrund */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    cursor: pointer;
+    float: right;
+    font-size: 24px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Little bit about me</h1>        
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="cv.html">My CV</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a class="active" href="about.html">About Me</a></li>
+                <li><a href="links.html">Links</a></li>
+            </ul>
+    </header>
+    <main>
+        <section class="about">
+            <h1>About yours truly</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit facilis harum vel, tenetur omnis molestias necessitatibus iste debitis ut consectetur eligendi accusamus hic deleniti ad eos dignissimos maiores corporis sit?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat facilis accusamus natus alias voluptas ea animi sed nisi nobis libero placeat, eveniet ad earum ipsum. Cumque nostrum eum blanditiis labore.</p>
+        </section>
+        <div id="secret-area">
+            <button id="secretUno"> </button>
+            <p id="text"></p>
+            <script src="Events/events.js"></script>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 [Leon Johansson]</p>
+    </footer>
+<div id="easter-egg-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Grattis! 🎉</h2>
+        <p>Du hittade det hemliga påskägget!</p>
+    </div>
+</div>
+</body>
+</html>
