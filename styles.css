@@ -105,21 +105,22 @@ footer {
 /*CV Main */
 .cv-content {
     display: flex;
-    gap: 2rem; /* Mellanrum mellan kolumnerna */
-    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem; 
 }
 
 .column {
-    flex: 1; /* Båda kolumnerna tar lika mycket plats */
+    flex: 1;
     min-width: 300px;
 }
 
 #contact-info {
-    margin-bottom: 2rem; /* Placera kontaktinformationen ovanför kolumnerna */
+    margin-top: auto; 
     padding: 1rem;
     background-color: #f9f9f9;
     border-radius: 5px;
-    width: 100%;
+    width: 100%; 
 }
 
 .kurs {
@@ -128,23 +129,29 @@ footer {
     padding: 15px;
     margin-bottom: 15px;
     background-color: #f9f9f9;
-    font-size: 0.9em;
+    font-size: 0.9em; 
 }
 
 .kurs h2 {
-    font-size: 1.2em;
+    font-size: 1.2em; 
 }
 
 .kurs p {
-    margin: 0.5em 0;
+    margin: 0.5em 0; 
 }
 /*CV Main */
 /*Portfolio Main */
+/* .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .portfolio {
     max-width: 800px; 
     margin: 0 auto; 
     padding: 2rem;
-}
+} 
 
 .project {
     background: #fff;
@@ -223,7 +230,7 @@ footer {
     font-size: 1.5rem;
     color: #333;
     text-decoration: none;
-}
+} */
 /*Portfolio Main */
 /* Links Main */
 .link-list {
@@ -264,7 +271,7 @@ footer {
         flex-direction: column;
     }
     .column{
-        width: 100%;
+        width: 100;
     }
     .project-container {
         flex-direction: column;
